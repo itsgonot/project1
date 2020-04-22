@@ -1,0 +1,15 @@
+{% extends "layout.html" %}
+
+{% block title %}
+    Success!
+{% endblock %}
+
+{% block body %}
+    <h1>{{ message_1 }}</h1>
+
+<p>{{ message_2 }}</p>
+
+    <form>
+  <input type="button" value="Go back!" onclick="history.back()">
+    </form>
+{% endblock %}

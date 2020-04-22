@@ -1,0 +1,32 @@
+{% extends "layout.html" %}
+
+{% block title %}
+    BooksReviews
+{% endblock %}
+
+{% block body %}
+<div class="row">
+    <div class="col-4">
+        <h1>Welcome!</h1>
+        <ul>
+            <li>
+                <div class="form-group">
+                    <a class="btn btn-primary" href="/create" role="button">Sign up</a>
+                </div>
+            </li>
+            <li>
+            <div class="form-group">
+            <a class="btn btn-primary" href="/login" role="button">Log in</a>
+            </div>
+            </li>
+        </ul>
+    </div>
+    <div class="col-8">
+        <h1>BooksReviews</h1>
+        <p>BooksReviews is a page that provides you with a searcher for your favorite books!
+        In addition to this you can read reviews from other readers and also write your own one.
+        We have a information of 4800+ books, with lots of reviews around the world.
+        Be part of it! You only have to sign up (or login if you already have an account) to start searching and reviewing.</p>
+    </div>
+</div>
+{% endblock %}
